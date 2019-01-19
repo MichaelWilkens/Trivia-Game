@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Office Trivia</title>
+    <link rel="shortcut icon" href="assets/images/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+</head>
+<body>
+    <div id='background'></div>
+
+    <div id='wrapper'>
+
+        <div id='main-content'>
+            <h1>The Office Trivia</h1>
+            <button id='start-button'> Start</button>
+            <div id='game-logic'>
+                <p class='game-logic-item' id='question-number'></p>
+                <p class='game-logic-item' id='timer'></p>
+                <p class='game-logic-item' id='correct-answers'></p>
+            </div>
+            <h3 id='question'>Question:</h3>
+            <p class='option' id='a'></p>
+            <p class='option' id='b'></p>
+            <p class='option' id='c'></p>
+            <p class='option' id='d'></p>
+            <p id='answer'></p>
+        </div>   
+    </div> 
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/trivia.js"></script>
+        
+</body>
+</html>
