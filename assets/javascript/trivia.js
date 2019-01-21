@@ -104,7 +104,7 @@ $('.option').on('click', function(){
 });
 
 $.ajax({
-    url: "http://api.giphy.com/v1/gifs/H6DsRPlp0zMUE?api_key=2WU4PYcRUv7T886W3C56ImE48Qdl0J7U",
+    url: "https://cors-anywhere.herokuapp.com/http://api.giphy.com/v1/gifs/H6DsRPlp0zMUE?api_key=2WU4PYcRUv7T886W3C56ImE48Qdl0J7U",
     method: 'GET',
     responseType:'application/json',
 }).then(function(response){
